@@ -1,0 +1,200 @@
+
+
+/* Image in About Section */
+@media screen and (width<990px) and (width > 550px){
+    .img-responsive{
+        width: 300px;
+        height: 450px;
+    }    
+}
+
+@media screen and (width<552px) and (width > 343px){
+    .img-responsive{
+        margin-top: 70px;
+        width: 200px;
+        height: 350px;
+    }    
+}
+
+@media screen and (width<343px) and (width > 200px){
+    .img-responsive{
+        margin-top: 70px;
+        width: 100px;
+        height: 250px;
+    }    
+}
+
+
+@media screen and (width<579px) and (width >= 419px){
+    .serachsection{
+        margin-top: 50px;
+        height: 50px;
+        width: 400px;
+        justify-content: center;
+    }
+
+    .search_result{
+        margin-left: 22%;
+        width: 300px;
+        height: 350px;
+        font-size: 9px;
+    }
+    
+    .searchtext{
+        border: 2px solid blue;
+        outline: none;
+        border-right: 0px;
+        width: 200px;
+    }
+    
+    .search-submit{
+        background: #014073;
+        width: 80px;
+        font-size: 10px;
+        color: #fff;
+    }
+}
+
+@media screen and (width<420px) and (width >=294px){
+    .serachsection{
+        margin-top: 0px;
+        width: 280px;
+        height: 50px;
+    }
+    
+    .searchtext{
+        padding-left: 4px;
+        width: 180px;
+        font-size: 12px;
+    }
+    .search-submit{
+        width: 90px;
+        padding-left: 0%;
+        margin-left: 0%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (width<=294px) and (width >=0px){
+    .serachsection{
+        margin-top: 0px;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .searchtext{
+        padding-left: 4px;
+        width: 100px;
+        font-size: 12px;
+    }
+    
+    .search-submit{
+        width: 80px;
+        font-size: 10px;
+    }
+}
+
+
+/* make cities more responsive Todo  */
+
+@media screen and (width<469px) {
+    
+    .component{
+        padding: 2px;
+    }
+    
+    .imgs{
+        font-size: 13px;
+    }
+    .city{
+        width: 280px;
+    }
+
+}
+
+@media screen and (width<310px) {
+    
+    .component{
+        padding: 2px;
+    }
+    
+    .imgs{
+        font-size: 13px;
+    }
+    .city{
+        width: 250px;
+    }
+
+}
+
+
+
+/* Search Result Section */
+
+
+@media screen and (width<1506px) and (width >1244px){
+.search_result{
+    margin-top: -16px;
+    margin-left: 27%;
+    width: 600px;
+    font-size: 14px;
+}
+}
+
+@media screen and (width<=1244px) and (width >1101px){
+.search_result{
+    margin-left: 24%;
+    width: 600px;
+    height: 350px;
+    font-size: 14px;
+}
+}
+
+@media screen and (width<=1102px) and (width >900px){
+.search_result{
+    margin-left: 21%;
+    width: 480px;
+    height: 350px;
+    font-size: 14px;
+}
+}
+
+@media screen and (width<=900px) and (width >577px){
+.search_result{
+    margin-left: 12%;
+    width: 480px;
+    height: 350px;
+    font-size: 14px;
+}
+}
+
+
+@media screen and (width<420px) and (width >=318px){
+
+    .search_result{
+        margin-left: 12%;
+        width: 280px;
+        height: 280px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (width<319px) and (width >=249px){
+
+    .search_result{
+        margin-left: 9%;
+        width: 230px;
+        height: 186px;
+        font-size: 7px;
+    }
+}
+
+@media screen and (width<250px) and (width >=100px){
+
+    .search_result{
+        margin-left: 15%;
+        width: 150px;
+        height: 186px;
+        font-size: 7px;
+    }
+}

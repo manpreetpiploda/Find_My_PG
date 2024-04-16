@@ -1,0 +1,5 @@
+.shadow{
+    box-shadow: rgba(189, 30, 30, 0.02) 0px 1px 3px 0px, rgba(46, 124, 201, 0.15) 0px 0px 0px 1px;
+    background-color: rgb(113, 241, 241);
+    margin-top: 40px;
+}

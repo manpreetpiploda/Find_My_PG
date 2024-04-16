@@ -1,0 +1,56 @@
+.contact_us_heading{
+    color: rgb(4, 16, 115);
+}
+
+
+.main_section_contact{
+    margin-top: 65px;   
+}
+
+
+.shadow_contact{  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left_part_contact{
+    /* background-color: aqua; */
+    width: 30%;
+}
+
+.right_part_contact{
+    /* background-color: yellow; */
+    width: 75%;
+    margin: 0px 70px;
+}
+
+.first_text_contact{
+    width: 300px;
+    margin-right: 50px;
+}
+
+.second_text_contact{
+    width: 350px;
+}
+
+.border_icon{
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.bor_contact{
+    border: 1px solid #019FE9;
+}
+
+.label_contact{
+    color: #014073;
+    font-size: 14px;
+}
+
+.div_details{
+    display: flex;
+}
+
+.dropbox_contact{
+    border: 2px solid #019FE9;
+    font-weight: 500;
+}

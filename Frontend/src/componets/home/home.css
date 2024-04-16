@@ -1,0 +1,187 @@
+.section1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.serachsection{
+    margin-top: 31px;
+    width: 650px;
+    height: 50px;
+}
+
+.searchtext{
+    border: 2px solid blue;
+    outline: none;
+    border-right: 0px;
+    width: 700px;
+    padding-left: 30px;
+}
+
+.serachion{
+    border: 2px solid blue;
+    border-left: 0px;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.search-submit{
+    background: #014073;
+    width: 200px;
+    color: #fff;
+}
+
+
+.city{
+    box-shadow: rgba(246, 245, 248, 0.35) 0px 5px 15px;
+    background-color: rgb(237, 244, 243);
+    border-radius: 20px;
+    width: 55%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+
+.longimg{
+    width: 100%;
+}
+
+.about{
+    margin-top: 70px;
+}
+
+.tex{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+.leftabout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn{
+    border: 2px solid #019fe9;
+    font-weight: 500;
+    color: #019fe9;
+    padding: 10px 3px;
+    border-radius: 35px;
+    width: 130px;
+    display: inline-block;
+}
+
+.img-responsive{
+    width: auto;
+    height: 550px;
+}
+
+
+.rightsection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tex2{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 600;
+}
+
+.worktex{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(1, 159, 233);
+    margin-bottom: 10px;
+    padding: 0px;
+    line-height: 30px;
+    margin: 0 0 10px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.w_logo{
+    width: 200px;
+    height: 170px;
+    border-radius: 20px;
+    padding-top: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(1, 159, 233, 0.3);
+}
+
+.w_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 12%
+}
+.texdesc{
+    display: flex;
+    font-weight: 700;
+    flex-wrap: wrap;
+    
+}
+
+.o_logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.search_result{
+    position: absolute;
+    margin-left: 445px;
+    margin-top: -16px;
+    width: 520px;
+    height: 350px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    overflow: scroll;
+    list-style-type:none;
+    background-color: black;
+}
+
+
+.list_item{
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.location_icon{
+    padding-top: 4px;
+    padding-right: 10px;
+}
+
+.input-group{
+    flex-direction: column;
+}
+
+
+
+
+/* City css */
+.img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    justify-content: center;
+}

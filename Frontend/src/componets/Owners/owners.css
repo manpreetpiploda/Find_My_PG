@@ -1,0 +1,17 @@
+.owner_heading{
+    color: rgb(4, 16, 115);
+}
+
+.owner_details{
+    color: #014073;
+    font-size: 14px;
+}
+
+.contact_no{
+    outline: 0;
+}
+
+.contact_no:focus:invalid{
+    border: 2px solid;
+    border-color: red;
+}

@@ -1,0 +1,96 @@
+@media screen and (width<1200px) and (width >=992px){
+    
+    .right_part_contact{
+        /* background-color: yellow; */
+        width: 70%;
+        margin: 0px 60px;
+    }
+    
+    .first_text_contact{
+        width: 200px;
+        margin-right: 50px;
+    }
+    
+    .second_text_contact{
+        width: 350px;
+    }
+    
+    
+}
+
+@media screen and (width<992px) and (width >=768px){
+    
+    
+    .right_part_contact{
+        /* background-color: yellow; */
+        width: 80%;
+        margin: 0px 40px;
+    }
+    
+    .first_text_contact{
+        width: 200px;
+        margin-right: 20px;
+    }
+    
+    .second_text_contact{
+        width: 200px;
+    }
+    
+    
+}
+
+@media screen and (width<=768px) and (width >=487px){
+    
+    .div_details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .right_part_contact{
+        /* background-color: yellow; */
+        width: 80%;
+        margin: 0px 60px;
+    }
+    
+    .first_text_contact{
+        width: 200px;
+        margin-right: 20px;
+    }
+    
+    .second_text_contact{
+        width: 200px;
+    }
+    
+}
+@media screen and (width<=487px) and (width >=250px){
+     
+    .div_details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left_part_contact{
+        width: 25%;
+    }
+    
+    .right_part_contact{
+        width: 100%;
+    }
+    
+    .first_text_contact{
+        margin: 0%;
+        padding: 0%;
+        width: 120px;
+    }
+    
+    .second_text_contact{
+        margin: 0%;
+        padding: 0%;
+        width: 120px;
+    }
+    .div_fix_details{
+        font-size: 11px;
+    }
+    
+}

@@ -1,0 +1,16 @@
+.blog_img_div{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog1_title{
+    margin: 35px;
+    text-align: center;
+    color: rgb(55, 169, 169);
+}
+
+.big_blog_img{
+    width: 750px;
+    height: 400px;
+}
